@@ -3,6 +3,7 @@ Scripts for a a Google Form which would aggregate and send results to IT.
 
 # How it Works
 Uses Google Forms, Google Sheets, Script Editor for Google Sheets, and Triggers.
+
 1. The google form matches all of the fields set by the variable "e". This form has an accompanying spreadhseet to hold its answers.
 1. Add a trigger to the script main.gs to run once or twice a week.
 2. The email sends formatted lists so that you can import all form submissions at once to the different lists.
